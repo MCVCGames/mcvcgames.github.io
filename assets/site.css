@@ -1,0 +1,17 @@
+:root{--text:#1d1b18;--mid:#5d5750;--line:#ddd6cc;--bg:#faf8f4;--link:#7a3b12}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.6 Georgia,"Times New Roman",serif}
+main{max-width:42rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+header{border-bottom:1px solid var(--line);margin-bottom:2rem;padding-bottom:1rem}
+.studio{font:600 .8rem/1 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.studio a{color:inherit;text-decoration:none}
+h1{font-size:1.9rem;line-height:1.2;margin:.6rem 0 .3rem}
+h2{font-size:1.2rem;margin:2rem 0 .4rem}
+p,li{margin:.4rem 0}
+.date{color:var(--mid);font-size:.9rem;margin:0}
+.summary{border-left:3px solid var(--line);padding:.2rem 0 .2rem 1rem;color:var(--mid)}
+a{color:var(--link)}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem;color:var(--mid);font-size:.85rem}
+ul.games{list-style:none;padding:0}
+ul.games li{border-top:1px solid var(--line);padding:.8rem 0}
